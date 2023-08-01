@@ -159,3 +159,38 @@
  .large {
    flex-basis: 60%
  }
+
+ /*----botao back to top---*/
+
+#btnTop {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #000000;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  box-shadow: #696969;
+}
+
+.arrow {
+  border: solid #ebba34;
+  border-width: 0 7px 7px 0;
+  padding: 5px;
+  display: inline-block;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+html,
+body {
+    scroll-behavior: smooth;
+}
